@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover beginner-friendly internships across technology and business domains.">
+  <title>InternConnect | Find your next opportunity</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to internship listings</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="InternConnect home"><span class="brand-mark">I</span> InternConnect</a>
+      <a class="nav-link" href="#main">Explore internships</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">YOUR CAREER STARTS HERE</p>
+        <h1>Find an internship.<br><span>Build your future.</span></h1>
+        <p class="hero-copy">Explore opportunities, discover new skills, and take the next step in your career.</p>
+        <a class="primary-link" href="#main-listings">Explore opportunities <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="container listings-section" id="main-listings" aria-labelledby="listings-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURATED OPPORTUNITIES</p>
+          <h2 id="listings-heading">Explore internships</h2>
+          <p class="muted">Find a role that matches your interests.</p>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite">Loading internships…</p>
+      </div>
+
+      <form class="filters" id="filter-form" role="search" aria-label="Filter internships">
+        <div class="field search-field">
+          <label for="search-input">Search internships</label>
+          <input id="search-input" name="search" type="search" placeholder="Try “frontend” or “design”" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="domain-filter">Domain</label>
+          <select id="domain-filter" name="domain">
+            <option value="all">All domains</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+            <option value="UI/UX Design">UI/UX Design</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+          </select>
+        </div>
+        <button class="reset-button" id="clear-filters" type="reset">Clear filters</button>
+      </form>
+
+      <div id="status-message" class="status-message" role="status" aria-live="polite"></div>
+      <div id="internship-grid" class="internship-grid" aria-label="Internship results"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#"><span class="brand-mark">I</span> InternConnect</a>
+      <p>Built with semantic HTML, CSS and vanilla JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>

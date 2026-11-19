@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Development Intern",
+    "company": "BrightLabs",
+    "domain": "Web Development",
+    "location": "Remote",
+    "duration": "3 months",
+    "type": "Paid"
+  },
+  {
+    "id": 2,
+    "title": "Data Science Intern",
+    "company": "Nexa Analytics",
+    "domain": "Data Science",
+    "location": "Bengaluru, India",
+    "duration": "2 months",
+    "type": "Hybrid"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Intern",
+    "company": "PixelCraft Studio",
+    "domain": "UI/UX Design",
+    "location": "Remote",
+    "duration": "3 months",
+    "type": "Paid"
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer Intern",
+    "company": "CodeSpring",
+    "domain": "Web Development",
+    "location": "Pune, India",
+    "duration": "6 months",
+    "type": "On-site"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Intern",
+    "company": "MarketMinds",
+    "domain": "Marketing",
+    "location": "Remote",
+    "duration": "2 months",
+    "type": "Part-time"
+  },
+  {
+    "id": 6,
+    "title": "Cybersecurity Analyst Intern",
+    "company": "SecureLayer",
+    "domain": "Cybersecurity",
+    "location": "Hyderabad, India",
+    "duration": "4 months",
+    "type": "Hybrid"
+  },
+  {
+    "id": 7,
+    "title": "Python Developer Intern",
+    "company": "ByteWorks",
+    "domain": "Web Development",
+    "location": "Remote",
+    "duration": "3 months",
+    "type": "Paid"
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Intern",
+    "company": "ModelForge",
+    "domain": "Data Science",
+    "location": "Delhi, India",
+    "duration": "4 months",
+    "type": "Hybrid"
+  },
+  {
+    "id": 9,
+    "title": "Product Design Intern",
+    "company": "Northstar Apps",
+    "domain": "UI/UX Design",
+    "location": "Remote",
+    "duration": "3 months",
+    "type": "Part-time"
+  }
+]
